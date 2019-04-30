@@ -7,7 +7,7 @@
     <ProjectGuid>{26079A90-E307-4271-81FD-BDDD9FA0BDB5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Exercicio_Main</RootNamespace>
-    <AssemblyName>Exercicio_Main</AssemblyName>
+    <AssemblyName>Exercicio-Main</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Department.cs" />
+    <Compile Include="Entities\Enums\WorkerLevel.cs" />
+    <Compile Include="Entities\HourContract.cs" />
+    <Compile Include="Entities\Worker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
